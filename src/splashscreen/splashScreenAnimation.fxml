@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="ap" prefHeight="392.0" prefWidth="606.0" stylesheets="@../resources/dark-theme.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="splashscreen.SplashScreenAnimationController">
+   <children>
+      <Circle fx:id="c1" fill="#0084ff00" layoutX="303.0" layoutY="182.0" radius="128.0" stroke="#00ddff" strokeType="INSIDE" strokeWidth="15.0" style="-fx-stroke-dash-array: 50;" />
+      <Circle fx:id="c2" fill="#0084ff00" layoutX="303.0" layoutY="182.0" radius="94.0" stroke="#2900ff" strokeType="INSIDE" strokeWidth="10.0" style="-fx-stroke-dash-array: 60;" />
+      <Circle fx:id="c3" fill="#0084ff00" layoutX="303.0" layoutY="182.0" radius="53.0" stroke="#ff00d2" strokeType="INSIDE" strokeWidth="10.0" style="-fx-stroke-dash-array: 40;" />
+      <Text fx:id="textLoading" fill="WHITE" layoutX="209.0" layoutY="352.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="about-text" text="Loading 0 %" textAlignment="CENTER" wrappingWidth="188.0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="14.0" layoutY="203.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="about-text" text="Video" textAlignment="CENTER" wrappingWidth="157.0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="449.0" layoutY="203.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="about-text" text="Plyer" textAlignment="CENTER" wrappingWidth="157.0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
